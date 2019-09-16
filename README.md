@@ -1,4 +1,9 @@
-# MdbAngularFree
+# Productos
+
+#IMPORTANTE:
+utilize una bd de firebase que esta ubicada en el siguiente link.
+link:https://console.firebase.google.com/project/angular-firestore-cac8e/database/firestore/data~2Fproducts~2FcQ0qW7wE8NbVWw0uY2k5
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
