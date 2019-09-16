@@ -1,0 +1,18 @@
+<div class="card card-body">
+    <form (ngSubmit)="addProduct()">
+        <div class="form-group">
+            <input type="text" name="name" [(ngModel)]="product.name" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+            <input type="text" name="description" [(ngModel)]="product.description" class="form-control" placeholder="Descripcion">
+        </div>
+
+        <div class="form-group">
+            <input type="number" name="price" [(ngModel)]="product.price" class="form-control" placeholder="Precio">
+        </div>
+
+        <br>
+        <button type="submit" class="btn btn-info btn-block">Guardar</button>
+
+    </form>
+</div>
